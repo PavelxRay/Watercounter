@@ -64,19 +64,19 @@ class SecondForm(QMainWindow):
             self.a += 100
             self.oneoo.setChecked(False)
 
-        if self.a <= float(self.result) * 250:
+        if self.a < float(self.result) * 250:
             self.bottle.setPixmap(f1)
 
-        elif float(self.result) * 250 < self.a <= float(self.result) * 500:
+        elif float(self.result) * 250 <= self.a < float(self.result) * 500:
             self.bottle.setPixmap(f2)
 
-        elif float(self.result) * 500 < self.a <= float(self.result) * 750:
+        elif float(self.result) * 500 <= self.a < float(self.result) * 750:
             self.bottle.setPixmap(f2)
 
-        elif float(self.result) * 750 < self.a <= float(self.result) * 1000:
+        elif float(self.result) * 750 <= self.a < float(self.result) * 1000:
             self.bottle.setPixmap(f3)
 
-        elif self.a > float(self.result) * 1000:
+        elif self.a >= float(self.result) * 1000:
             self.bottle.setPixmap(f4)
 
     def main2(self):
@@ -118,19 +118,19 @@ class SecondForm(QMainWindow):
             self.a += 500
             self.fiveoo.setChecked(False)
 
-        if self.a <= float(self.result) * 250:
+        if self.a < float(self.result) * 250:
             self.bottle.setPixmap(f1)
 
-        elif float(self.result) * 250 < self.a <= float(self.result) * 500:
+        elif float(self.result) * 250 <= self.a < float(self.result) * 500:
             self.bottle.setPixmap(f2)
 
-        elif float(self.result) * 500 < self.a <= float(self.result) * 750:
+        elif float(self.result) * 500 <= self.a < float(self.result) * 750:
             self.bottle.setPixmap(f2)
 
-        elif float(self.result) * 750 < self.a <= float(self.result) * 1000:
+        elif float(self.result) * 750 <= self.a < float(self.result) * 1000:
             self.bottle.setPixmap(f3)
 
-        elif self.a > float(self.result) * 1000:
+        elif self.a >= float(self.result) * 1000:
             self.bottle.setPixmap(f4)
 
     def main4(self):
@@ -145,19 +145,19 @@ class SecondForm(QMainWindow):
             self.a += 1000
             self.litre.setChecked(False)
 
-        if self.a <= float(self.result) * 250:
+        if self.a < float(self.result) * 250:
             self.bottle.setPixmap(f1)
 
-        elif float(self.result) * 250 < self.a <= float(self.result) * 500:
+        elif float(self.result) * 250 <= self.a < float(self.result) * 500:
             self.bottle.setPixmap(f2)
 
-        elif float(self.result) * 500 < self.a <= float(self.result) * 750:
+        elif float(self.result) * 500 <= self.a < float(self.result) * 750:
             self.bottle.setPixmap(f2)
 
-        elif float(self.result) * 750 < self.a <= float(self.result) * 1000:
+        elif float(self.result) * 750 <= self.a < float(self.result) * 1000:
             self.bottle.setPixmap(f3)
 
-        elif self.a > float(self.result) * 1000:
+        elif self.a >= float(self.result) * 1000:
             self.bottle.setPixmap(f4)
 
     def data(self):
