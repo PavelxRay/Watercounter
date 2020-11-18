@@ -170,4 +170,4 @@ class SecondForm(QMainWindow):
 app = QApplication(sys.argv)
 ex = FirstForm()
 ex.show()
-sys.exit(app.exec_())
+sys.exit(app.exec())
