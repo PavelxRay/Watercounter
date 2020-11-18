@@ -52,8 +52,12 @@ class SecondForm(QMainWindow):
         # Дневник
         self.dn.clicked.connect(self.data)
 
-    def main1(self):
         self.oneoo.setCheckable(True)
+        self.twofiveo.setCheckable(True)
+        self.fiveoo.setCheckable(True)
+        self.litre.setCheckable(True)
+
+    def main1(self):
 
         f1 = QPixmap('stakan1.png')
         f2 = QPixmap('stakan2.png')
@@ -80,7 +84,6 @@ class SecondForm(QMainWindow):
             self.bottle.setPixmap(f4)
 
     def main2(self):
-        self.twofiveo.setCheckable(True)
 
         f1 = QPixmap('stakan1.png')
         f2 = QPixmap('stakan2.png')
@@ -107,7 +110,6 @@ class SecondForm(QMainWindow):
             self.bottle.setPixmap(f4)
 
     def main3(self):
-        self.fiveoo.setCheckable(True)
 
         f1 = QPixmap('stakan1.png')
         f2 = QPixmap('stakan2.png')
@@ -134,7 +136,6 @@ class SecondForm(QMainWindow):
             self.bottle.setPixmap(f4)
 
     def main4(self):
-        self.litre.setCheckable(True)
 
         f1 = QPixmap('stakan1.png')
         f2 = QPixmap('stakan2.png')
