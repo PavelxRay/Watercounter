@@ -162,8 +162,9 @@ class SecondForm(QMainWindow):
             self.bottle.setPixmap(f4)
 
     def data(self):
-        with open('dnevnik.txt', 'w+', encoding='utf8') as f:
-            f.write(f"Вы выпили {self.a / 1000}л. воды.")
+        with open('dnevnik.txt', 'a', encoding='utf8') as f:
+            f.write(f"Вы выпили {self.a / 1000}л. воды.\n")
+            f.write("------------------------------------\n")
 
 
 app = QApplication(sys.argv)
